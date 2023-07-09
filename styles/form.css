@@ -1,0 +1,225 @@
+#formedit{
+    background-color: aqua;
+    margin-bottom: 20px;
+}
+
+#formadd{
+        /* margin-bottom: 20px; */
+}
+
+.show{
+    display: inline;
+    margin-bottom: 100 px;
+ 
+}
+
+.hide{
+    display: none;
+    margin-bottom: 50px;
+}
+
+untuk tampilan tabel pesan
+table {
+    width: 70%;
+    border-collapse: collapse;
+    margin-bottom: 10px;
+  }
+  
+  th, td {
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: center;
+  }
+  
+  th {
+    background-color: #316879;
+    color: white;
+    font-weight: bold;
+  }
+  
+  td img {
+    max-width: 80px;
+  }
+  
+  button {
+    padding: 5px 10px;
+    background-color: #316879;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #24415e;
+  }
+
+#btnadd {
+    margin-bottom: 10px;
+    margin: 75px;
+}
+  
+
+#header {
+    background: #316879;
+    padding: 10px;
+}
+  
+  h1 {
+    color: white; 
+    font-size: 30px;
+  }
+
+/* css untuk tampilan index home */
+.container-home{
+    height: 100vh;
+    background-image: url('../gambar/musikkkk.jpg');
+    background-size: cover;
+  }
+  
+  /* untuk navigasi bar */
+  header {
+    position: absolute;
+    background: #316879;
+    top: 0;
+    left: 0;
+    padding: 0 100px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  .logo {
+    color: white;
+    font-family: "Times New Roman", Times, serif;
+    height: 60px;
+    line-height: 60px;
+    font-size: 30px;
+    float: left;
+    font-weight: bold;
+  }
+  
+  .logo:hover{
+    color: #7fe7dc;
+  }
+  
+  nav {
+    float: right;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #316879;
+  }
+  
+  ul li {
+    list-style: none;
+    float: left;
+  }
+  
+  ul li a {
+    color: rgb(252, 245, 245);
+    height: 60px;
+    line-height: 60px;
+    padding: 0 20px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  ul li a:hover {
+      color: #130101;
+      background-color: #ced7d8;
+  }
+
+/* css untuk tampilan about */
+.event-details {
+  text-align: center;
+  color: white;
+  padding: 10px;
+  width: 500px;
+  margin-bottom: 20px;
+}
+.text-center{
+    text-align:center !important;
+}
+.bodyAbout{
+    margin-top:100px;
+    width:500px;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+
+.warna{
+  background-color: #316879;
+  background-repeat: no-repeat;
+  Color: white;
+  width: 50%;
+}
+
+.bodyData{
+  margin-top: 100px;
+}
+
+.bodyJadwal{
+    margin-top:100px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+.lineUp-card h3, .lineUp-card h2, .lineUp-card p{
+    width: 100% !important;
+}
+.lineUp p{
+    background-color: #3783ba;
+    border-radius: 10px;
+    padding:5px;
+    color:white;
+}
+h2,
+h3,
+p {
+  text-align: center;
+  /* color: rgb(0, 0, 0); */
+  width: 500px;
+}
+
+.card {
+    background-color: #f1f1f1;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card h3 {
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+  
+  .card p {
+    margin-bottom: 5px;
+  }
+  
+  .card .details {
+    margin-top: 10px;
+    text-align: center;
+  }
+  
+  .card .details p {
+    margin: 5px 0;
+  }
+  
+  .card .details ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .card .details ul p {
+    margin: 5px 0;
+  }
+  
